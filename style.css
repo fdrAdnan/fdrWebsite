@@ -1,0 +1,171 @@
+.bgColorSet{
+    
+    background-color: rgba(0, 0, 0, 0.5) ; /* Light gray background */
+    padding: 20px; /* Add some padding for better spacing */
+    color: rgb(36, 66, 36);
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 1.2em;
+}
+
+.aboutBgColorSet{
+   background-image: url('https://lh3.googleusercontent.com/d/17Z9z3sGU4OOq4Mczmrwf35vrqp94m-S0');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire background */
+    /*background-position: center center; /* Centers the image */
+    background-attachment: fixed;
+}
+
+#logoImage{
+    height: 50px;
+}
+
+.smallFont{
+    font-size: 0.5em; /* Smaller font size */
+}
+/*
+footer {
+    background-color: #f8f9fa; /* Light gray background for footer 
+    padding: 10px; /* Padding for footer 
+    text-align: center; /* Center align text in footer 
+}
+*/
+#content-wrap {
+            padding-bottom: 2.5rem;
+            /* Footer height */
+        }
+    footer {
+            display: block;
+            position: fixed;
+            z-index: 1000;
+            height: 0.8cm;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(245, 245, 245, 0.5);
+            color: rgb(0, 128, 0);
+            
+            text-align: center;
+    }
+
+    body {
+          margin: 0px;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          padding: 0px;
+          position: absolute;
+          width: 100%;
+    }
+
+    #contactPage {
+        background-image: url('https://lh3.googleusercontent.com/d/1u1HkYLuJa24UxK4QJFz37r4kRdJHH5hY'); /* Replace 'your-image-name.jpg' with your image path */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-size: cover; /* Scales the image to cover the entire background */
+        /*background-position: center center; /* Centers the image */
+        background-attachment: fixed;
+    }
+
+    .bgcolorContact {
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+        padding: 20px; /* Padding for the contact section */
+        border-radius: 10px; /* Rounded corners */
+        border: 3px solid rgb(0, 0, 0);
+        /*min-height: 60vh; /* Ensures the section covers the full height of the viewport */
+    }
+
+    .sizeSet {
+        width: 30px; /* Set the width of the image */
+        height: 30px; /* Set the height of the image */
+        margin-right: 10px; /* Add some space between the image and text */
+    }
+
+    .sizeSetL {
+        width: 50px; /* Set the width of the image */
+        height: 50px; /* Set the height of the image */
+    }
+
+    .addresslabel {
+        font-family: 'pacifico';
+    }
+
+    h3 {
+        font-family: 'pacifico';
+    }
+
+    h1 {
+        font-family: "Tangerine", sans-serif;
+        font-size: 4em;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+        color: rgb(36, 66, 36);
+    }
+
+    .textBackgroundSet {
+        /*background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        padding: 10px;*/
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 5px;
+        border-radius: 20px;
+        margin: 100px;
+        border: 3px solid rgba(0, 0, 0, 1);
+    }
+
+    body {
+        font-weight: bold;
+        color: rgb(36, 66, 36);
+    }
+
+    /*.backgroundText {
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }*/
+
+    .indexBgColorSet{
+        background-image: url('https://lh3.googleusercontent.com/d/1LO9-a6eEaypEkKnKsezQ4qIteHnTdzMu');
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-size: cover; /* Scales the image to cover the entire background */
+        /*background-position: center center; /* Centers the image */
+        background-attachment: fixed;
+    }
+
+    .indexMainDiv{
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+        padding: 20px; /* Padding for the contact section */
+        border-radius: 10px; /* Rounded corners */
+        margin-top: 15vh;
+        border: 3px solid rgb(0, 0, 0);
+    }
+
+    .indexBlockImages{
+        width: 30vh;
+        height: 25vh;
+    }
+
+    .card{
+        background-color: rgba(245, 245, 245, 0.3);
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cardTextHeading{
+        font-family: "Tangerine", sans-serif;
+        font-size: 2.5em;
+        color: rgb(36, 66, 36);
+    }
+
+    .productBgColorSet{
+        background-image: url('https://lh3.googleusercontent.com/d/174WTmvh3uH-3LmGCG3Sd-_XVH0wWyyae');
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-size: cover; /* Scales the image to cover the entire background */
+        /*background-size: 100% auto; /* Scales the image to cover the entire background */
+        /*background-position: center center; /* Centers the image */
+        background-attachment: fixed;
+    }
+
+    .card{
+        margin-bottom: 1cm;
+    }
